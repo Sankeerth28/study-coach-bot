@@ -1,3 +1,21 @@
+def install_requirements():
+    """Install missing packages from requirements.txt."""
+    if not os.path.exists("requirements.txt"):
+        print("requirements.txt not found!")
+        return
+
+    with open("requirements.txt", "r") as file:
+        required = {pkg.strip() for pkg in file if pkg.strip() and not pkg.startswith('#')}
+    installed = {pkg.key for pkg in pkg_resources.working_set}
+
+    missing = required - installed
+
+    if missing:
+        print(f"Installing missing packages: {missing}")
+        subprocess.check_call([os.sys.executable, "-m", "pip", "install", *missing])
+    else:
+        print("All requirements are already installed.")
+
 import streamlit as st
 from PyPDF2 import PdfReader
 from sentence_transformers import SentenceTransformer
