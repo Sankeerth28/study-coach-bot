@@ -65,10 +65,11 @@ streamlit run app.py
 
 Built by **Sankeerth Naidu**  
 🎓 BTech CSE From Lovely Professional University
-🔗 [LinkedIn](www.linkedin.com/in/lucky-luc28)
+🔗[LinkedIn](https://www.linkedin.com/in/lucky-luc28)
+
 
 ---
 
 ## 📬 Contact
 
-If you're hiring or curious — DM me on [LinkedIn](www.linkedin.com/in/lucky-luc28) or reach out at Sankeerth2004@gmail.com
+If you're hiring or curious — DM me on [LinkedIn](https://www.linkedin.com/in/lucky-luc28) or reach out at Sankeerth2004@gmail.com
