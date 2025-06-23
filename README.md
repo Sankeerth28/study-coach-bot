@@ -1,5 +1,5 @@
 
-# 🧠 Study Coach Bot
+# 🧠 Study Coach Bot --> [Streamlit](https://study-coach-bot.streamlit.app/)
 
 **Study Coach Bot** is a GenAI-powered application that allows users to upload a PDF, ask natural language questions, and get context-aware answers — all built using Retrieval-Augmented Generation (RAG) and Large Language Models (LLMs).
 
